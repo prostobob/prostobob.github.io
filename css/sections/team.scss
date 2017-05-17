@@ -1,0 +1,100 @@
+.team {
+	background: url(../img/bg/team.jpg) center center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.team__section {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 50%;
+	background: rgba(47,50,52,.93);
+	padding: 5% 2% 0 7%;
+}
+
+.team .section__title {
+	margin-bottom: 12%;
+}
+
+.team-acco {
+	height: auto;
+}
+
+.team-acco__item {
+	margin-bottom: 40px;
+	position: relative;
+	height: auto;
+}
+
+.team-acco__trigger {
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: "Gagalin-Regular";
+	position: relative;
+	display: block;
+	line-height: 1.42;
+	transition:all .3s;
+}
+
+.team-acco__trigger:before, .team-acco__trigger:after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: -18px;
+	top: 8px;
+	width: 0;
+	height: 0;
+}
+
+.team-acco__trigger:before {
+	border-top: 7px solid $yellow;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	transition: .3s;
+	transform: rotate(0deg);
+}
+
+.team-acco__item.active .team-acco__trigger:before {
+	transform: rotate(-180deg);
+}
+
+.team-acco__content {
+	padding-top: 14px;
+	position: relative;
+	height: auto;
+	display: none;
+}
+
+.team-acco__pic {
+	float: left;
+	width: 30%;
+}
+
+.team-acco__img {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	vertical-align: top;
+}
+
+.team-acco__text {
+	float: left;
+	width: 70%;
+}
+
+.team-acco__title {
+	color: #fff;
+	font-size: 14px;
+	margin-bottom: 14px;
+	font-family: "Ubuntu-B";
+}
+
+.team-acco__text-content {
+	color: #fff;
+	font-size: 14px;
+	font-family: "Ubuntu-Light";
+}

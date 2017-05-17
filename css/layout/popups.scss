@@ -1,0 +1,57 @@
+.popup {
+	display: none;
+}
+
+.full-review {
+	padding: 25px 20px;
+	position: relative;
+}
+
+.full-review__title {
+	font-size: 14px;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	font-family: "Gagalin-Regular";
+}
+
+.full-review__content {
+	font-size: 14px;
+	font-family: "Ubuntu-Light";
+}
+
+.full-review__close {
+	width: 15px;
+	height: 15px;
+	display: block;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	opacity: .7;
+	transition: .3s;
+	&:hover {
+		opacity: 1;
+	}
+}
+
+.full-review__close svg {
+	width: 100%;
+	height: 100%;
+}
+
+.status-popup {
+	width: 240px;
+}
+
+.status-popup__inner {
+	padding: 20px;
+	text-align: center;
+}
+
+.status-popup__message {
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.error-message {
+	color: $red;
+}

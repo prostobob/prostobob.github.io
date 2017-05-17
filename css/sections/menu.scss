@@ -1,0 +1,68 @@
+.menu {
+	background: url(../img/bg/menu.jpg) center center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.menu-acco {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.menu__title {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+
+.menu-acco__item {
+	float: left;
+	height: 100%;
+}
+
+.menu-acco__trigger {
+	display: block;
+	width: 80px;
+	height: 100%;
+	float: left;
+	text-decoration: none;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.menu-acco__content {
+	height: 100%;
+	float: left;
+	background: rgba(47, 50, 52, .93);
+	width: 0px;
+	overflow: hidden;
+	transition: 1.6s;
+}
+
+.menu-acco__trigger-text {
+	font-size: 40px;
+	color: #fff;
+	font-family: "Gagalin-Regular";
+	transform: rotate(-90deg);
+	text-align: center;
+	white-space: nowrap;
+	width: 650px;
+	height: 80px;
+	position: absolute;
+	top: 50%;
+	left: -275px;
+	margin-top: -40px;
+}
+
+.menu-acco__text {
+	font-family: "Ubuntu-Light";
+	color: #fff;
+	font-size: 14px;
+	line-height: 1.8;
+	padding: 60px 30px;
+	width: 550px;
+}

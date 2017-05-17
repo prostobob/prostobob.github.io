@@ -1,0 +1,163 @@
+.hero {
+	background: url(../img/bg/hero.jpg) center center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero .container {
+	position: static;
+}
+
+.header {
+	padding-top: 12px;
+}
+
+.header__left {
+	float: left;
+	width: 32%;
+}
+
+.header__right {
+	float: right;
+	width: 68%;
+	padding-top: 13px;
+}
+
+.logo__img {
+	width: 98.265px;
+	height: 74.317px;
+}
+
+.nav {
+	width: 82%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nav__list {
+	width: 100%;
+}
+
+.nav__item {
+	display: block;
+	float: left;
+	margin-right: 15px;
+	white-space: nowrap;
+}
+
+.nav__item:last-child {
+	margin-right: 0;
+}
+
+.nav__item:after {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	width: 4px;
+	height: 4px;
+	background-color: #fff;
+	border-radius: 50%;
+	margin-left: 15px;
+}
+
+.nav__item:last-child:after {
+	display: none;
+}
+
+.nav__link {
+	display: inline-block;
+	vertical-align: middle;
+	color: #fff;
+	text-decoration: none;
+	font-family: "Ubuntu-Medium";
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+.nav__link:hover {
+	text-decoration: underline;
+}
+
+.btn {
+	text-decoration: none;
+	display: inline-block;
+	background: $orange;
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 5px;
+	font-family: "Ubuntu-Medium";
+	padding: 9px;
+}
+
+
+.order-link {
+	width: 15%;
+	padding: 9px 0;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 2%;
+}
+
+.hero__container {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	   -moz-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	     -o-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	left: 0;
+	right: 0;
+}
+
+.hero__left {
+	float: left;
+	width: 50%;
+}
+
+.hero__right {
+	float: left;
+	width: 50%;
+	padding-top: 115px;
+}
+
+.section__title {
+	color: $yellow;
+	font-size: 72px;
+	font-family: "Gagalin-Regular";
+	margin-bottom: 12px;
+}
+
+.hero__desc {
+	color: #fff;
+	font-size: 65px;
+	font-family: "Lifehack Medium";
+	text-transform: lowercase;
+	line-height: 1em;
+}
+
+.down {
+	display: block;
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	width: 60px;
+	height: 60px;
+	margin-left: -15px;
+}
+
+.down__img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 30px;
+	height: 30px;
+	transform: translate(-50%,-50%);
+}
+
+.down__img:hover {
+	top: 15%;
+	transition: .5s;
+}
